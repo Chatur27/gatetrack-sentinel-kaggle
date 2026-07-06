@@ -1,0 +1,31 @@
+GATETRACK SENTINEL RC2.3.8 — VERIFICATION REPORT
+
+Release label: RC2.3.8
+Application version: 1.2.3.8
+
+Automated verification completed in the build container:
+
+PASS — python scripts/verify_release.py
+- Required files present: true
+- Feature preservation check: true
+- Deterministic routing: 30/30
+- Policy matching: 30/30
+- Security detection: 5/5
+- High-risk recall: 10/10
+- Audit completeness: 30/30
+- Portable proof integrity self-test: true
+- Loop contracts present: true
+- Frontend identity aligned: true
+- Public NPM lockfile URLs only: true
+- 1280×720 profile present: true
+- Internal scroll guards present: true
+
+PASS — python -m pytest -q
+- 49 passed
+- 2 skipped
+
+PASS — SVG asset parse check
+- frontend/src/assets/gatetrack-sentinel-mark.svg
+- docs/assets/gatetrack-sentinel-logo.svg
+
+NOTE — npm run build was not completed inside this container because the extracted workspace did not contain installed Vite binaries. The package lock remains public-registry clean and the Windows install script runs `npm ci --registry=https://registry.npmjs.org/` before launching the app.
