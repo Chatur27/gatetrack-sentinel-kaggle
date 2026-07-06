@@ -1,0 +1,31 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GateTrack Sentinel shield mark</title>
+  <desc id="desc">Gold and navy shield combining GS with a guarded gate for GateTrack Sentinel.</desc>
+  <defs>
+    <linearGradient id="gold" x1="18" y1="8" x2="78" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE68A"/>
+      <stop offset="0.45" stop-color="#D4A72C"/>
+      <stop offset="1" stop-color="#8A5A07"/>
+    </linearGradient>
+    <linearGradient id="deep" x1="20" y1="10" x2="78" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#142844"/>
+      <stop offset="0.55" stop-color="#091625"/>
+      <stop offset="1" stop-color="#040A13"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="50" y1="16" x2="80" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#DCE8F7"/>
+      <stop offset="0.5" stop-color="#8194AE"/>
+      <stop offset="1" stop-color="#31445F"/>
+    </linearGradient>
+    <filter id="shadow" x="-18%" y="-18%" width="136%" height="136%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#000814" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <path d="M48 7 81 19v25c0 21.8-12.8 35.9-33 45C27.8 79.9 15 65.8 15 44V19L48 7Z" fill="url(#deep)" stroke="url(#gold)" stroke-width="4.2" filter="url(#shadow)"/>
+  <path d="M48 13.5 75 23v21.4c0 16.6-9.3 28.2-27 36.2-17.7-8-27-19.6-27-36.2V23l27-9.5Z" stroke="#203954" stroke-width="1.4"/>
+  <path d="M42.5 26H34c-8.1 0-14.2 6-14.2 14.1v9.6c0 8.2 6.1 14.3 14.2 14.3h12.8V52.7H34.6c-2.4 0-4.2-1.8-4.2-4.3V41c0-2.5 1.8-4.3 4.2-4.3h7.9V26Z" fill="url(#gold)"/>
+  <path d="M48.4 26H69v11.3H52.6c-2.1 0-3.4 1.2-3.4 3 0 1.9 1.3 3.1 3.4 3.1h8.1c7.7 0 13.2 5.1 13.2 12.3 0 7.4-5.5 12.7-13.2 12.7H47.5V57.1h12.1c2.2 0 3.6-1.2 3.6-3.1 0-1.8-1.4-3-3.6-3h-8.2c-7.3 0-12.8-5.2-12.8-12.4 0-7.4 4.9-12.6 9.8-12.6Z" fill="url(#steel)"/>
+  <path d="M33 70.5h30" stroke="#D4A72C" stroke-width="2.4" stroke-linecap="round" opacity=".85"/>
+  <path d="M36 62.5v13M42 60.5v17M48 59v20M54 60.5v17M60 62.5v13" stroke="#D4A72C" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M31 77.5c5.3 3.5 10.9 6 17 8 6.1-2 11.7-4.5 17-8" stroke="#102033" stroke-width="2" stroke-linecap="round"/>
+</svg>
