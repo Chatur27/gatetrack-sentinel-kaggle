@@ -109,8 +109,8 @@ Open `http://127.0.0.1:5173`.
 For a clean first-time installation and launch:
 
 ```powershell
-.\install_rc2_3_7.ps1
-.\run_rc2_3_7.ps1
+.\install_rc2_3_8.ps1
+.\run_rc2_3_8.ps1
 ```
 
 The lower-level launcher remains available at `scripts\launch_windows.ps1`.
@@ -176,4 +176,4 @@ Apache License 2.0. See `LICENSE`, `NOTICE` and `docs/IP_BOUNDARY.md`.
 
 RC2.3.8 additionally aligns frontend/backend release identity, uses only public NPM package URLs, resets modal state cleanly, exposes honest unverified/loading/offline states, and protects the 1280×720 submission viewport without removing any RC2.2 capability.
 
-See `RC2_3_7_REBUILD_REPORT.md`, `docs/proof-carrying-operations.md` and `docs/loop-engineering.md`.
+See `RC2_3_8_REBUILD_REPORT.md`, `docs/proof-carrying-operations.md` and `docs/loop-engineering.md`.

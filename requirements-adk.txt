@@ -1,0 +1,4 @@
+-r requirements.txt
+google-adk>=2.3,<2.4
+mcp>=1.28,<1.29
+google-genai>=2.10,<2.11

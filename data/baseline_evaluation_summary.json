@@ -1,0 +1,17 @@
+{
+  "total_cases": 30,
+  "correct_routing_count": 30,
+  "correct_routing_rate": 1.0,
+  "policy_match_count": 30,
+  "policy_match_rate": 1.0,
+  "security_detection_count": 5,
+  "security_case_count": 5,
+  "security_detection_rate": 1.0,
+  "high_risk_recall_count": 10,
+  "high_risk_case_count": 10,
+  "high_risk_recall": 1.0,
+  "audit_complete_count": 30,
+  "audit_completeness_rate": 1.0,
+  "known_sensitive_data_leakage_count": 0,
+  "baseline_type": "deterministic control baseline"
+}

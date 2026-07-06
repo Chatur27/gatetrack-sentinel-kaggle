@@ -1,0 +1,4 @@
+-r requirements-adk.txt
+pytest>=8,<9
+pytest-cov>=6,<7
+ruff>=0.11,<1
