@@ -1,0 +1,15 @@
+fastapi<1,>=0.133
+uvicorn[standard]<1,>=0.34
+pydantic<3,>=2.12
+python-dotenv<2,>=1.0
+httpx<1,>=0.28
+
+[adk]
+google-adk<2.4,>=2.3
+mcp<1.29,>=1.28
+google-genai<2.11,>=2.10
+
+[dev]
+pytest<9,>=8
+pytest-cov<7,>=6
+ruff<1,>=0.11
